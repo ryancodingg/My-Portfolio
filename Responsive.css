@@ -1,0 +1,34 @@
+@media (max-width:991px) {
+    #contact-me .contact{
+        padding: 6rem 0 0 0;
+    }
+}
+
+@media (max-width:576px) {
+    h1{
+        font-size: 2rem !important;
+        line-height: 3rem;
+    }
+    .hero-small button{
+        width: 50%;
+    }
+    .hero-small p{
+        font-size: .9rem;
+    }
+    .aboutImage{
+        height: 400px;
+    }
+    
+}
+
+@media (max-width:350px) {
+    h1{
+        font-size: 1.8rem !important;
+        line-height: 2.5rem;
+    }
+    .hero-small button{
+        width: 100%;
+    }
+    
+}
+

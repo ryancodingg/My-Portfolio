@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="/images/logosign.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/1.0.2/css/froala_blocks.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Portfolio of Ryan Nguyen</title>
+  </head>
+  <body>
+    <!-- HEADER & HERO SECTION -->
+    <div class="hero rounded pt-5 fdb-block">
+      <!-- header -->
+
+      <div class="container position-relative">
+        <nav class="navbar py-3 rounded navbar-expand-md">
+          <a class="navbar-brand" href="index.html">
+            <img src="/images/logo.png" alt="image" />
+          </a>
+
+          <!-- this display in small device -->
+          <button class="navbar-toggler" type="button">
+            <i class="far fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav3">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#what-i-do">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#works">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- menu in small device -->
+        <ul class="small-device rounded">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#what-i-do">services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact me</a>
+          </li>
+        </ul>
+      </div>
+      <!-- hero section -->
+      <section class="container hero-small">
+        <div class="row align-items-center">
+          <div class="col-12 py-5 py-xl-0 col-xl-5 text-left">
+            <h1>
+              I’m Ryan Nguyen  <br />
+              <span id="typed"></span>
+            </h1>
+            <p>
+              Highly skilled Data Engineer with expertise in designing and implementing scalable data pipelines, 
+              optimizing data storage and retrieval, and ensuring data quality. 
+              Committed to leveraging cutting-edge technologies to drive data-driven decision-making and deliver innovative solutions
+            </p>
+            <button type="button" class="rounded mt-4">
+              <a href="#">Hire Me</a>
+            </button>
+          </div>
+          <div class="col-12 col-xl-6 d-none d-xl-block">
+            <img alt="image" class="img-fluid" src="/images/main.jpg" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- HEADER & HERO SECTION END -->
+
+    <!-- ABOUT -->
+    <section id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-5 p-0">
+            <div class="aboutImage">
+              <img
+                alt="image"
+                class="img-fluid rounded-0"
+                src="/images/aboutme.png"
+              />
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-6 pl-md-5 mt-5 mt-md-0 about-text">
+            <h2>ABOUT ME!</h2>
+            <hr />
+            <p>
+              I am a data engineer driven by a deep passion for data and finance. 
+              In my free time, I indulge in the art of film photography and engage in intense chess matches. 
+              This balance between technical expertise and creative hobbies fuels my motivation and keeps me inspired in both my professional and personal life.
+            </p>
+            <h6><strong class="mr-2">Name : </strong> Ryan Nguyen</h6>
+            <h6><strong class="mr-2">Age : </strong> 23 Years</h6>
+            <h6>
+              <strong class="mr-2">Location : </strong> New South Wales, Australia
+            </h6>
+            <h6><strong class="mr-2">E-mail : </strong> nglongvu10022k@gmail.com</h6>
+            <h6><strong class="mr-2">Phone : </strong> (+61) 416-509-486</h6>
+            <h6><strong class="mr-2">Position : </strong> Data Engineer</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- SERVICE -->
+    <section id="what-i-do" class="flex-colo">
+      <h2>WHAT I DO!</h2>
+      <hr />
+      <div class="whatIdo mt-3">
+        <div class="container">
+          <div class="row text-center justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3 mt-lg-0 mt-3">
+              <div class="whatido-box rounded">
+                <i class="fas fa-laptop-code"></i>
+                <h3>DATA ANALYSIS</h3>
+                <p>
+                  I have  over 3+ years of hands-on experience in data analysis using SQL and Python to optimize queries, ensure
+                  efficient data retrieval, processing and data manipulation.
+                </p>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-12 col-sm-6 col-lg-3 mt-lg-0 mt-3">
+              <div class="whatido-box rounded">
+                <i class="fas fa-pencil-paintbrush"></i>
+                <h3>DATA INTEGRATION & INFRASTRUCTURE</h3>
+                <p>
+                  I have 2+ years of experience in designing scalable  data architectures tailored to the needs of the business, 
+                  ensuring seamless data flows and faciliatte optimized data storage.
+                </p>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-12 col-sm-6 col-lg-3 mt-lg-0 mt-3">
+              <div class="whatido-box rounded">
+                <i class="fas fa-fill-drip"></i>
+                <h3>DATA WAREHOUSING</h3>
+                <p>
+                  I have specialized in design and build data warehousing solutions with data lakes, data warehouse and cloud-based storage 
+                  I ensure to impplement successfully robust data architectures , empowering data-driven decisions.
+                </p>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-12 col-sm-6 col-lg-3 mt-lg-0 mt-3">
+              <div class="whatido-box rounded">
+                <i class="fas fa-bullseye-arrow"></i>
+                <h3>PERFORMANCE OPTIMIZATIOM</h3>
+                <p>
+                  I have specialized in employing various strategies to improve the speed and efficiency of database systems and configuration
+                  by analyzing query performance, designing and implementing appropriate indexes to accelerate data retrieval speed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICE END -->
+
+    <!-- WORKS -->
+    <section id="works" class="flex-colo">
+      <h2>MY WORKS</h2>
+      <hr />
+
+      <div class="work-button">
+        <button type="button" data-filter="all">All</button>
+        <button type="button" data-filter=".category-a">Analysis</button>
+        <button type="button" data-filter=".category-b">Visualization</button>
+        <button type="button" data-filter=".category-c">Others</button>
+      </div>
+
+      <div class="container">
+        <div class="row mt-0 mt-md-3 justify-content-center gaps mixitup">
+          <div class="mix category-a col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="/images/1.png" />
+            <div
+              class="work-overlay d-flex justify-content-center align-items-center flex-column"
+            >
+              <h4>Aviation Data Analysis</h4>
+              <button class="rounded mt-4">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="mix category-b col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="/images/2.jpg" />
+            <div
+              class="work-overlay d-flex justify-content-center align-items-center flex-column"
+            >
+              <h4>Rotten Tomatoes Classification Model</h4>
+              <button class="rounded mt-4">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="mix category-c col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="/images/3.png" />
+            <div
+              class="work-overlay d-flex justify-content-center align-items-center flex-column"
+            >
+              <h4>Portfolio Website for DE</h4>
+              <button class="rounded mt-4">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+          <div class="mix category-a col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="/images/4.png" />
+            <div
+              class="work-overlay d-flex justify-content-center align-items-center flex-column"
+            >
+              <h4>MovieLens Analysis</h4>
+              <button class="rounded mt-4">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="mix category-b col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="/images/5.png" />
+            <div
+              class="work-overlay d-flex justify-content-center align-items-center flex-column"
+            >
+              <h4>Superstore Data</h4>
+              <button class="rounded mt-4">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="mix category-c col-sm-5 col-lg-3 col-11 work-box p-0">
+            <img alt="image" class="img-fluid rounded" src="/images/6.png" />
+            <div
+              class="work-overlay d-flex justify-content-center align-items-center flex-column"
+            >
+              <h4>One morning, when Gregor</h4>
+              <button class="rounded mt-4">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- pagination -->
+      <ul class="pagination flex-wrap mt-5 d-flex align-items-center">
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+    </section>
+    <!-- WORKS END -->
+
+    <!-- CONTACT ME -->
+    <section id="contact-me" class="flex-colo">
+      <h2>CONTACT ME</h2>
+      <hr />
+      <div class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <h4>Email</h4>
+                    <input type="email" class="form-control" />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <h4>Subject</h4>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <h4>How Can Help you</h4>
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="5"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button type="submit" class="py-3">SUBMIT</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-12 col-lg mt-lg-0 mt-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.7676373991017!2d36.70311831472919!3d-3.406752942575393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x183704a4ddc994f3%3A0x3ab206a794372c4d!2sNjiro%20Complex!5e0!3m2!1sen!2stz!4v1651043843922!5m2!1sen!2stz"
+                width="100%"
+                height="590"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT ME END -->
+
+    <!-- BOLGS -->
+    <section id="blogs" class="flex-colo">
+      <h2>MY BLOGS</h2>
+      <hr />
+      <div class="container">
+        <div class="row mt-5 gaps justify-content-center">
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3 p-0 blog-box rounded">
+            <img alt="image" src="/images/bolg1.png" />
+            <div class="px-3">
+              <h4>Far from the countries Vokalia</h4>
+              <span>May 31, 2020</span>
+              <p>
+                Far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in..
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3 p-0 blog-box rounded">
+            <img alt="image" src="/images/blog2.png" />
+            <div class="px-3">
+              <h4>Far from the countries Vokalia</h4>
+              <span>May 31, 2020</span>
+              <p>
+                Far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in..
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="col-12 col-sm-8 col-md-4 col-lg-3 p-0 blog-box rounded">
+            <img alt="image" src="/images/blog3.png" />
+            <div class="px-3">
+              <h4>Far from the countries Vokalia</h4>
+              <span>May 31, 2020</span>
+              <p>
+                Far from the countries Vokalia and Consonantia, there live the
+                blind texts. Separated they live in..
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="https://medium.com/@irenemmassyy"
+        target="_blank"
+        class="view-more"
+        >View More In Medium</a
+      >
+    </section>
+    <!-- BOLGS END -->
+
+    <!-- FOOTER -->
+    <footer class="rounded">
+      <div class="container">
+        <div class="row text-center align-items-center">
+          <div class="col-12 col-md-3 text-md-left text-center">
+            <img alt="image" src="/images/logo.png" height="40" />
+          </div>
+
+          <div class="col-12 col-md-4 text-center my-md-0 my-3">
+            ©2023 Ryan. All Right Reseved
+          </div>
+
+          <div class="col-12 col-md-5 text-center text-md-right">
+            <a href="https://github.com/ryancodingg" class="mx-3"
+              ><i class="fab fa-github" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/ryan-nguyen-a6827a1a2/" class="mx-3"
+              ><i class="fab fa-linkedin" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.facebook.com/ryan.vu.1002/" class="mx-3"
+              ><i class="fab fa-facebook" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.instagram.com/riannggggg/" class="mx-3"
+              ><i class="fab fa-instagram" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
